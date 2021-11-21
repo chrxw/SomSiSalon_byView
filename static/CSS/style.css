@@ -1,0 +1,151 @@
+body {
+  background-color: black !important;
+}
+
+.HeaderComponent {
+  position: absolute;
+  width: 1920px;
+  height: 168.23px;
+  left: 0px;
+  top: 0px;
+}
+
+.SomSiSalon {
+  position: absolute;
+  width: 514px;
+  height: 60px;
+  left: 703px;
+  top: 4px;
+  font-family: Cinzel;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #47372e;
+}
+
+.Navbar {
+  position: absolute;
+  width: 1920px;
+  height: 101.23px;
+  left: 0px;
+  top: 67px;
+  background: #5c9aa1;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.HeadingProduct {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  font-family: Cinzel;
+  font-size: 40px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.SubHeadingProduct {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  font-family: Cinzel;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+img.deli {
+  vertical-align: baseline;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.containerr {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
